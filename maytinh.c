@@ -3,7 +3,9 @@
 int main(){
 	char linkjs[50]=" src=\"js/maytinh.js\"";
 	char linkcss[50]=" <link rel=\"stylesheet\" href=\"style/maytinh.css\">";
+
 	printf("Content-Type: text/html\n\n");
+
 	printf("<html>\n<head>\n");
     printf("<script %s>", linkjs);
     printf("</script >\n");
@@ -50,5 +52,6 @@ int main(){
     printf("</div>\n");
     printf("</body>\n");
 	printf("</html>\n");
+    
 	return 0;
 }
